@@ -49,7 +49,6 @@ while user_input != 'q':
     elif user_input == '3':
         books = nurzhan.get_book()
 
-        # возврат книги
         if not books:
             print("У вас нет взятых книг.\n")
         else:
@@ -69,7 +68,7 @@ while user_input != 'q':
             for i, book in enumerate(books, start=1):
                 print(f"{i}. {book}")
             print()
-            # возврат книгни
+
     elif user_input == '5':
         books = nurzhan.get_book()
         if not books:

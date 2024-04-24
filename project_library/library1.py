@@ -6,10 +6,6 @@ class Library:
         self.book_storage.append(new_book)
         new_book.set_availability(True)
 
-    def rm__book(self, book):
-        self.book_storage.remove(book)
-        book.set_availability(False)
-
     def get_book_storage(self):
         return self.book_storage
 
